@@ -19,7 +19,9 @@ const schema = {
     tags: { type: 'array', items: { type: 'string' } },
     visibility: { type: 'string', enum: ['public', 'private'] },
     enabled: { type: 'boolean' },
-    adapterOptions: { type: 'object' }
+    adapterOptions: { type: 'object' },
+    projectDir: { type: 'string' },
+    configPath: { type: 'string' }
   },
   required: ['name', 'slug', 'type', 'buildCommand', 'outputDir'],
   additionalProperties: false,
