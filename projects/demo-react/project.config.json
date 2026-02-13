@@ -4,9 +4,9 @@
   "description": "A React + Vite demo project in the monorepo.",
   "type": "vite",
   "sourceDir": "src",
-  "buildCommand": "vite build",
+  "buildCommand": "npx vite build",
   "outputDir": "dist",
-  "devCommand": "vite dev",
+  "devCommand": "npx vite dev",
   "tags": ["demo", "react", "vite"],
   "visibility": "public",
   "enabled": true
